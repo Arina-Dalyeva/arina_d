@@ -7,7 +7,6 @@ for i in range(len(lst)):
             if lst[i] > lst[i + 1]:
                 lst[i], lst[i + 1] = lst[i + 1], lst[i]
 print(lst)
-
 if len(lst) % 2 == 0:
     x = len(lst)/2
     print(lst[x])
