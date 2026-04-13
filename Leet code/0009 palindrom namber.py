@@ -10,5 +10,23 @@ def isPalindrome(x: int):
 print(isPalindrome(x))
 
 
+def isPalindrome(x: int):
+    if x < 0:
+        return False
+    elif x == 0:
+        return True
+    m = 0
+    a = 1
+    while a < 0:
+        a * 10
+        m = x // 10
+        m = m * 10
+        m = x // 100
+
+
+
+
+
+
 
 
