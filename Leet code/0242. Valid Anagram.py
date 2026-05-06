@@ -28,8 +28,24 @@ def isAnagram_2(s: str, t: str):
             return False
 
 
-print(isAnagram(s, t))
+
+def isAnagramm3 (s: str, t: str):
+    d = {}
+    x = {}
+    for i in range (len(s)):
+        if s[i] not in d:
+            d[s[i]] = 1
+        else:
+            d[s[i]] +=1
+    for j in range (len(t)):
+        if t[j] not in x:
+            x[t[j]] = 1
+        else:
+            x[t[j]] +=1
+    if x == d:
+        return True
+    else:
+        return False
 
 
-
-
+print(isAnagramm3(s, t))

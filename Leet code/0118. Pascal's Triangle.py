@@ -1,4 +1,4 @@
-m = 9
+m = 7
 lst = [0] * m
 
 
@@ -19,3 +19,7 @@ def treygolnik(lst):
 
 
 print(treygolnik(lst))
+
+
+for i in range (len(lst)):
+    print((' '* -(i-len(lst)) ), *lst[i])
