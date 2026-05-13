@@ -1,9 +1,9 @@
-f = 12
+n = 12
 
 
-def Happy_namber (f):
+def Happy_namber (n):
     z = []
-    for digit in str(f):
+    for digit in str(n):
         z.append(int(digit))
     d = {}
     while True:
@@ -19,4 +19,4 @@ def Happy_namber (f):
         z = []
         for digit in str(x):
             z.append(int(digit))
-print(Happy_namber(f))
+print(Happy_namber(n))
