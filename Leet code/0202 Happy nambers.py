@@ -1,7 +1,7 @@
 n = 12
 
 
-def Happy_namber (n):
+def happy_namber (n):
     z = []
     for digit in str(n):
         z.append(int(digit))
