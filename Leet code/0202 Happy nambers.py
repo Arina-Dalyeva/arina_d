@@ -19,4 +19,4 @@ def happy_namber (n):
         z = []
         for digit in str(x):
             z.append(int(digit))
-print(Happy_namber(n))
+print(happy_namber(n))
